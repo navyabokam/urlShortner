@@ -1,5 +1,5 @@
 
-# 🚀 BZ MERN Fullstack Template
+# 🚀 Smart Shortener  MERN Fullstack Template
 
   
 
@@ -139,4 +139,3 @@ npm start
 
   
 
-MIT © 2025 Kaushikk
