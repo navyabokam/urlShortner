@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-           URL Shortener
+           Smart Shortener
           </Title>
 
           <Text
@@ -66,7 +66,7 @@ fw={700}
               fontWeight: 400,
             }}
           >
-            
+            Shorten. Share. Track. Simplify your links in one click.
           </Text>
 
           <Button

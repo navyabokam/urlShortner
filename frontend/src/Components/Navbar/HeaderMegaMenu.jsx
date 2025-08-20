@@ -22,6 +22,7 @@ const navLinks = [
   { to: '/', label: 'Home' },
   { to: '/profile', label: 'Profile' },
   { to: '/url/shortener', label: 'Shorten URL' },
+  { to: '/my-urls', label: 'My URLs' },
 ];
 
 export function HeaderMegaMenu() {
@@ -47,7 +48,7 @@ export function HeaderMegaMenu() {
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <Text component={Link} to="/" className={classes.logo}>
-            Being  <Text component="span">Zero</Text>
+            Smart  <Text component="span">Shortener</Text>
           </Text>
 
           <Group h="100%" gap={0} visibleFrom="sm">
