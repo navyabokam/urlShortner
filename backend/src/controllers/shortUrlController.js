@@ -58,7 +58,7 @@ export const redirectFunction = async (req, res) => {
 export async function getUserUrls(req, res) {
   try {
     // Assuming you have user info in req.user (from auth middleware)
-    const userId = req.user._id;
+    const userId = req.user.id || req.user._id;
     const urls = await ShortURL.find({ user: userId }).sort({ createdAt: -1 });
     res.json(urls);
   } catch (err) {
